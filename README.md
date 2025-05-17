@@ -29,7 +29,7 @@ This project demonstrates a complete predictive maintenance workflow using synth
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/predictive-maintenance.git
+git clone https://github.com/AbdellatifSatir/pred_main.git
 cd predictive-maintenance
 ```
 
@@ -50,7 +50,7 @@ This creates:
 
 2. Train Predictive Models
 ```bash
-python build_models.py
+predictive_model.ipynb
 ```
 This creates:
 - isolation_forest_model.pkl: Unsupervised anomaly detection model
@@ -60,7 +60,7 @@ This creates:
 
 3. Run the Streamlit Dashboard
 ```bash
-streamlit run simple_streamlit_app.py
+streamlit run app.py
 ```
 This launches a web interface where you can:
 - Select a machine to monitor
